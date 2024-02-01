@@ -1,0 +1,24 @@
+.collapsible {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.collapsible-header {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    overflow: hidden;
+    max-height: 2000px;
+    transition: max-height 0.7s ease-out, opacity 0.7s ease-in-out;
+    opacity: 1;
+}
+  
+
+.collapsible-content.hidden {
+    max-height: 0;
+}
+  
